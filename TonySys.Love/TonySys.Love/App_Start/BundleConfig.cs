@@ -23,9 +23,15 @@ namespace TonySys.Love
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            //默认主题
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //Spacelab主题
+            //bundles.Add(new StyleBundle("~/Content/css").Include(
+            //          "~/Content/Theme/Spacelab.css",
+            //          "~/Content/site.css"));
         }
     }
 }
